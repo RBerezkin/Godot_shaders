@@ -4,7 +4,7 @@ shader_type spatial;
 // rooms tiling
 uniform float _tiling: hint_range(1, 100, 1) = 6.0;
 // how many rooms in texture
-uniform vec2 _room_variations = vec2(1.0);
+uniform vec2 _room_variations = vec2(4.0, 1.0);
 // rooms texture atlas
 uniform sampler2D _room_tex: hint_albedo;
 
